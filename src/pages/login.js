@@ -1,11 +1,14 @@
 import React, { Component } from "react";
+import './login.css';
 
 class Login extends Component {
+
+    
     render(){
         document.title="Login"
 
         return(
-            <div className="container">
+            <div className="container padding">
                 <div className="col-4">
                     <body className="text-center">
             
@@ -37,6 +40,7 @@ class Login extends Component {
                 </div>
             </div>
         );
+
     }
 }
 
